@@ -10,7 +10,7 @@ import java.net.http.HttpResponse;
 
 public class ConsultarAPI {
     // Convertir utilizando Exchange Rate
-    public Moneda convertirConAPI(String origenMoneda, String destinoMoneda, int monto)
+    public Moneda convertirConAPI(String origenMoneda, String destinoMoneda, double monto)
             throws java. io. IOException, InterruptedException{
 
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/c4bf1e058dcd5f1034b2417f/pair/"

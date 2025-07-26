@@ -11,7 +11,7 @@ public class Moneda {
     @SerializedName("conversion_result")
     public String resultado;
 
-    public void datos(int cantidad){
+    public void datos(double cantidad){
         System.out.println("El valor "+cantidad+"["+valorOrigen+"] corresponde al valor final de =>>> "+resultado+"["+valorDestino+"]") ;
 
     }

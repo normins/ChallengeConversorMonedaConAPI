@@ -3,8 +3,9 @@ import java.util.Scanner;
 
 public class Menu {
     public static void mostarMenu() throws IOException, InterruptedException{
-        int opcion, valorAConvertir;
-        valorAConvertir = 0;
+        int opcion;
+        double valorAConvertir;
+        //valorAConvertir = 0;
         Scanner entrada = new Scanner(System.in);
 
         // Información sobre la conversión solicitada

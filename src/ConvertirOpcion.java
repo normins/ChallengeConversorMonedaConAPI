@@ -2,14 +2,14 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class ConvertirOpcion {
-    int valor;
+    double valor;
     Scanner input = new Scanner(System.in);
 
-    public int getValor() {
+    public double getValor() {
         return this.valor;
     }
 
-    public void convertir(String origen, String destino, int valor) throws IOException, InterruptedException {
+    public void convertir(String origen, String destino, double valor) throws IOException, InterruptedException {
         ConsultarAPI consulta = new ConsultarAPI();
 
         Moneda moneda = consulta.convertirConAPI(origen, destino, valor);
